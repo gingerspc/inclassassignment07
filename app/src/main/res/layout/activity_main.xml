@@ -6,11 +6,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="jiajing.myapplication.MainActivity">
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Firebase"
+    android:layout_gravity="center_horizontal"
+    />
 <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:hint="Enter your secret here"/>
+    android:hint="Enter your secret here"
+    android:lines="3"
+    android:inputType="textMultiLine"
+    android:gravity="top"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
