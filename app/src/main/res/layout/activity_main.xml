@@ -12,10 +12,17 @@
     android:text="Firebase"
     android:layout_gravity="center_horizontal"
     />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="What's your name?"
+        android:id="@+id/yourName"/>
 <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="Enter your secret here"
+    android:id="@+id/secret"
     android:lines="3"
     android:inputType="textMultiLine"
     android:gravity="top"/>
@@ -24,6 +31,13 @@
         android:layout_height="wrap_content"
         android:text="Save"
         android:onClick="save"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Whose secret is this?"
+        android:id="@+id/people"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
